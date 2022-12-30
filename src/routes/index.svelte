@@ -61,7 +61,7 @@
 				</div>
 				<div class="mainheader_list">
 					<div class="mainheader_item">
-						Более 900 <br>участков
+						Более 1000 <br>участков
 					</div>
 					<div class="mainheader_item">
 						Основан в <br>1990 году
