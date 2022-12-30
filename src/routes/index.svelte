@@ -172,7 +172,7 @@
 	display: flex;
 	align-items: center;
 	min-height: 90px;
-	margin: 0 50px;
+	margin: 0 40px;
 	line-height: 1.3em;
 	color: #fff;
 	&::before{
