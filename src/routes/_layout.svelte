@@ -14,6 +14,7 @@
 	export let menu;
 	export let segment;
 	import Nav from '../components/Nav.svelte';
+	import Footer from '../components/Footer.svelte';
 </script>
 
 <div class="mainmenu">
@@ -33,6 +34,8 @@
 <main>
 	<slot></slot>
 </main>
+
+<footer><Footer /></footer>
 
 <style lang="scss">
 main{

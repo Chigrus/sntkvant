@@ -31,6 +31,10 @@
 
 <script>
 	export let og_data;
+
+	import HeadPages from '../components/HeadPages.svelte';
+	import NoticeCard from '../components/NoticeCard.svelte';
+	import AdministrationCard from '../components/AdministrationCard.svelte';
 </script>
 
 <svelte:head>
@@ -71,6 +75,58 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+
+<div class="wrap wrap_notices">
+	<div class="work">
+		<div class="notices">
+			<HeadPages title="Наша доска" text="объявлений" />
+			<div class="notices_container">
+				<div class="notices_block">
+					<NoticeCard />
+				</div>
+				<div class="notices_block">
+					<NoticeCard />
+				</div>
+				<div class="notices_block">
+					<NoticeCard />
+				</div>
+				<div class="notices_block">
+					<NoticeCard />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="wrap wrap_administration">
+	<div class="work">
+		<div class="administration">
+			<HeadPages title="Наша" text="администрация" />
+			<div class="administration_container">
+				<div class="administration_block">
+					<AdministrationCard />
+				</div>
+				<div class="administration_block">
+					<AdministrationCard />
+				</div>
+				<div class="administration_block">
+					<AdministrationCard />
+				</div>
+				<div class="administration_block">
+					<AdministrationCard />
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="wrap wrap_news">
+	<div class="work">
+		<div class="news">
+			<HeadPages title="Наши новости" text="что нового?" />
 		</div>
 	</div>
 </div>
@@ -219,6 +275,44 @@
 			background-size: 70% 70%;
 		}
 	}
+}
+
+.notices{
+	padding: 65px 0;
+}
+
+.notices_container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.notices_block{
+	width: calc(100%/2 - 40px);
+	margin: 20px;
+}
+
+.wrap_administration{
+	padding: 65px 0;
+	background-repeat: repeat;
+	background-image: url(/img/bg-administration.png);
+}
+
+.administration_container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.administration_block{
+	width: calc(100%/4 - 30px);
+	margin: 15px;
+}
+
+.wrap_news{
+	padding: 65px 0;
 }
 
 @media only screen and (max-width: 1679px){
