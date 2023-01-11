@@ -6,8 +6,8 @@
 <div class="notice">
     <div class="image"></div>
     <div class="content">
-        <div class="title">Заголовок объявления о проведении газа</div>
-        <div class="text">Текст объявления о проведении газа, текст объявления о проведении</div>
+        <div class="title">Заголовок объявления</div>
+        <div class="text">Текст объявления, текст объявления</div>
         <div class="info">
             <div class="data">23/09/2022</div>
             <div class="by">Администрация</div>

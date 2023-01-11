@@ -35,6 +35,7 @@
 	import HeadPages from '../components/HeadPages.svelte';
 	import NoticeCard from '../components/NoticeCard.svelte';
 	import AdministrationCard from '../components/AdministrationCard.svelte';
+	import NewsCard from '../components/NewsCard.svelte';
 </script>
 
 <svelte:head>
@@ -127,6 +128,17 @@
 	<div class="work">
 		<div class="news">
 			<HeadPages title="Наши новости" text="что нового?" />
+			<div class="news_container">
+				<div class="news_block">
+					<NewsCard />
+				</div>
+				<div class="news_block">
+					<NewsCard />
+				</div>
+				<div class="news_block">
+					<NewsCard />
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
@@ -315,6 +327,18 @@
 	padding: 65px 0;
 }
 
+.news_container{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.news_block{
+	width: calc(100%/3 - 30px);
+	margin: 15px;
+}
+
 @media only screen and (max-width: 1679px){
 	.wrap_mainheader{
 		height: auto;
@@ -342,6 +366,10 @@
 	}
 
 	.administration_block{
+		width: calc(100%/2 - 30px);
+	}
+
+	.news_block{
 		width: calc(100%/2 - 30px);
 	}
 }
@@ -375,6 +403,9 @@
 		br{
 			display: none;
 		}
+	}
+	.news_block{
+		width: calc(100% - 30px);
 	}
 }
 

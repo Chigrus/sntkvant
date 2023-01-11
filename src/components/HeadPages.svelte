@@ -41,4 +41,10 @@
     font-size: 28px;
   }
 }
+
+@media only screen and (max-width: 479px){
+  .text{
+    font-size: 22px;
+  }
+}
 </style>
