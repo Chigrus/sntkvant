@@ -48,7 +48,7 @@
     margin-top: 7px;
 }
 
-@media only screen and (max-width: 639px){
+@media only screen and (max-width: 1023px){
 
 }
 </style>

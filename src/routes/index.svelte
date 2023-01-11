@@ -322,9 +322,9 @@
 		padding-top: 100px;
 	}
 
-	.wrap_mainheader .work{
-		min-height: calc(100vh - 200px);
-	}
+	// .wrap_mainheader .work{
+	// 	min-height: calc(100vh - 200px);
+	// }
 
 	.mainheader_item{
 		margin: 0 25px;
@@ -339,6 +339,10 @@
 	.mainheader_block{
 		box-sizing: border-box;
 		padding: 0 20px;
+	}
+
+	.administration_block{
+		width: calc(100%/2 - 30px);
 	}
 }
 
@@ -397,6 +401,14 @@
 
 	.mainheader_item{
 		margin: 5px 0;
+	}
+
+	.notices_block{
+		width: calc(100% - 40px);
+	}
+
+	.administration_block{
+		width: calc(100% - 30px);
 	}
 }
 </style>

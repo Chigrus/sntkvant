@@ -37,6 +37,8 @@
 }
 
 @media only screen and (max-width: 639px){
-
+  .text{
+    font-size: 28px;
+  }
 }
 </style>

@@ -83,7 +83,15 @@
     font-weight: 500;
 }
 
-@media only screen and (max-width: 639px){
+@media only screen and (max-width: 1023px){
+    .notice{
+        flex-wrap: wrap;
+    }
 
+    .content{
+        width: 100%;
+        padding-left: 0;
+        margin-top: 10px;
+    }
 }
 </style>
