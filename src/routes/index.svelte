@@ -1,7 +1,7 @@
 <script context="module">
 	const responseHandler = (defaultResponse = null) => res => {
 		if (res.status !== 200) {
-			return null;
+			return defaultResponse;
 		}
 		return res.json();
 	};
