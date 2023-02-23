@@ -17,6 +17,7 @@
 	import Footer from '../components/Footer.svelte';
 </script>
 
+
 <div class="mainmenu">
 	<div class="wrap wrap_mainmenu">
 		<div class="work">
@@ -25,7 +26,9 @@
 					<span class="name">СНТ Квант</span><br>
 					<span class="city">г. Невинномысск</span>
 				</a>
-				<Nav bind:menu {segment} />
+				{#if segment !== 'map'}
+					<Nav bind:menu {segment} />
+				{/if}
 			</div>
 		</div>
 	</div>
