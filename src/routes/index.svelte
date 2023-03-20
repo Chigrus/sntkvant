@@ -69,7 +69,7 @@
 						Более 1000 <br>участков
 					</div>
 					<div class="mainheader_item">
-						Основан в <br>1990 году
+						Основан в <br>1987 году
 					</div>
 					<div class="mainheader_item">
 						Более 500 <br>садоводов
