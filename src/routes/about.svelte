@@ -60,5 +60,12 @@
 .title{
 	color: #000000;
 	font-weight: 700;
+	font-size: 24px;
+}
+
+@media only screen and (max-width: 400px){
+	.title{
+		font-size: 18px;
+	}
 }
 </style>
